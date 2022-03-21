@@ -29,8 +29,10 @@ $ export TOOLCHAIN=arm-linux-gnueabihf-gcc
 
 $ export PREFIX=/opt/nginx
 
+
 Unset ARCH, CROSS_COMPILE; and get it from TOOLCHAIN env
 
 $export ARCH= CROSS_COMPILE=
+
 
 $ ./build_nginx_arm.sh
