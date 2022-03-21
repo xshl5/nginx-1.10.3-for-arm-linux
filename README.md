@@ -3,6 +3,7 @@
 Building for aarch64 ARCH
 ============
 $ aarch64-linux-gnu-gcc --version
+
 aarch64-linux-gnu-gcc (Ubuntu/Linaro 5.4.0-6ubuntu1~16.04.9) 5.4.0 20160609
 Copyright (C) 2015 Free Software Foundation, Inc.
 This is free software; see the source for copying conditions.  There is NO
@@ -18,6 +19,7 @@ For arm32 ARCH
 ============
 
 $ arm-linux-gnueabihf-gcc --version
+
 arm-linux-gnueabihf-gcc (Ubuntu/Linaro 5.4.0-6ubuntu1~16.04.9) 5.4.0 20160609
 Copyright (C) 2015 Free Software Foundation, Inc.
 This is free software; see the source for copying conditions.  There is NO
