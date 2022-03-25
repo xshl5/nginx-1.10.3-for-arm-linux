@@ -37,5 +37,5 @@ sed -i 's/libcrypto.a/libcrypto.a -lpthread/g' objs/Makefile
 touch -d 2021-06-15 `find pcre-8.45/`
 
 make -j5
-[ $? -eq 0 ] && ("$CROSS_COMPILE"-strip objs/nginx; make install)
+[ $? -eq 0 ] && ("$CROSS_COMPILE"strip objs/nginx; make install)
 
